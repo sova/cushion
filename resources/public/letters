@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://clojurescript.org/images/cljs-logo-icon-32.png">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="page-container">
+    <div id="topnav">
+    <a href="/merch"><div id="merchnav" class="topnav">
+      MERCH
+      </div></a>
+    <a href="/music"><div id="musicnav" class="topnav">
+      MUSIC
+    </div></a>
+    <a href="/reviews"><div id="reviewsnav" class="topnav">
+      REVIEWS
+      </div></a>
+    <a href="/letters"><div id="lettersnav" class="topnav selected">
+      LETTERS
+      </div></a>
+    <div id="mainlogotop"  class="glow">
+      eC
+    </div>
+    <hr/>
+    <h3> LETTERS
+      </h3>
+   <hr/>
+    <div id="app">
+      <p>
+        Now Loading electriCushion...
+      </p>
+
+    </div>
+    <div id="articles">
+    <h2>
+      electriCushion issue 1
+      </h2>
+    <ul><li>THE GUARANTEED INCOME</li>
+
+<li>THE PERFECT VOTING SYSTEM
+	<ul>ALL THE ALIENS SAY "LEAD US TO YOUR LEADER"</ul></li>
+
+<li>THE ORIGINS OF THE TRINITY</li>
+
+<li>HIGHER MODES OF THOUGHT</li>
+
+<li>THE FOUR-WAY BREAK</li>
+
+<li>FIFTY MUSIC REVIEWS</li>
+
+<li>SHORT STORIES
+<ul>
+
+	<li> PEGASUS IN SEARCH OF LOST TIME</li>
+
+	<li> THE BRITTLE WIRE</li>
+
+	<li> TWO NIGHTS IN GROWL THUNDER RIPPING MUSIC</li>
+
+	<li> LAUGHING BIRD THE EVERLOUD</li></ul></li>
+
+
+
+
+
+	<li>What fantastic diction in fiction as described in predelictions left by saints and scrolls of paint in mouldings caught by expats of the war.</li>
+
+	<li>No plan lasts collision</li></li><ul>
+
+
+
+
+
+</div>
+    <footer id="footer"><div id="footer-content">
+    &copy; electriCushion 2019.  All Rights Reserved.</footer>
+    </div></div>
+    <script src="js/compiled/ec.js" type="text/javascript"></script>
+  </body>
+</html>
