@@ -26,8 +26,9 @@
 
 
 (defn -main [& args] ;; entry point, lein run will pick up and start from here
-  (let [handler (if (in-dev? args)
+  (let [port 7778
+	handler (if (in-dev? args)
                   (reload/wrap-reload (site #'all-routes)) ;; only reload when dev
                   (site all-routes))]
-    (println "running server on localhost:7773")
-    (run-server handler {:port 7773})))
+    (println "running server on localhost:" port)
+    (run-server handler {:port port})))

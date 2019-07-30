@@ -35,10 +35,65 @@
         Now Loading electriCushion...
       </p>
     </div>
+
+   <div  onscroll="ecScroll()" id="feature">
+     
+   </div>
+    <div id="sidestretch">
+      <div id="top1">LOVE</div>
+      <div id="top2">SPACE</div>
+      <div id="top3">MUSIC</div>
+    </div>
+
     <footer id="footer"><div id="footer-content">
       &copy; electriCushion 2019.  All Rights Reserved.</footer>
       </div>
     </div>
-    <script src="js/compiled/ec.js" type="text/javascript"></script>
+
+
+    <script>
+
+      window.onload = function()
+      {
+        window.onscroll = function()
+        {
+          console.log("y: " + window.pageYOffset);
+          var wyo = window.pageYOffset;
+
+          if (wyo < 200) {
+            document.getElementById("sidestretch").scrollTo({
+              top: 0,
+              left: 0,
+              behavior: 'smooth'
+            });
+          }
+
+          if (wyo > 200 && wyo < 700)
+          {
+            document.getElementById("sidestretch").scrollTo({
+              top: 800,
+              left: 0,
+              behavior: 'smooth'
+            });
+          }
+          if (wyo >= 700)
+          {
+            document.getElementById("sidestretch").scrollTo({
+              top: 1600,
+              left: 0,
+              behavior: 'smooth'
+            });
+          }
+
+          
+        }
+      }
+      function ecScroll() {
+        var ttt = document.getElementById("feature");
+        var y = ttt.scrollTop;
+        
+        console.log(y);
+      }
+    </script>
   </body>
 </html>

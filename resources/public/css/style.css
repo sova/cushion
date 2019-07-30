@@ -14,11 +14,14 @@ body {
 #page-container {
   position: relative;
   min-height: 80vh;
-  padding: 0;
   padding-bottom: 10.5em;
   background-color: #fff;
   border-radius: 3px;
   box-shadow: 0 0 10px #455;
+
+  padding-left: 1em;
+  padding-right: 1em;
+  overflow: hidden;
 }
 
 #app {
@@ -84,6 +87,58 @@ a:visted {
   background-color: lightblue;
 }
 
+#sidestretch {
+  position: fixed;
+  right: 0px;
+  top: 50px;
+  width: 90px;
+  height: 800px;
+  overflow-y: hidden;
+  background-color: hsla(171, 89%, 50%, .3);
+  border-radius: 3px;
+}
+
+#top1 {
+  position: relative;
+  width: 33px;
+  background-color: hsla(156, 81%, 50%, .3);
+  height: 800px;
+
+  display: block;
+
+  border-radius: 3px;
+
+}
+
+#top2 {
+    width: 33px;
+  background-color: hsla(325, 73%, 50%, .3);
+  height: 800px;
+
+  display: block;
+
+  border-radius: 3px;
+
+
+}
+
+#top3 {
+  width: 33px;
+  background-color: hsla(161, 78%, 50%, .3);
+  height: 900px;
+ 
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 3px;
+
+}
+
+#feature {
+  width: 25em;
+  height: auto;
+  margin-right: 200px;
+  
+}
 
 
 
@@ -327,6 +382,9 @@ a:visted {
   .wares {
     width: 180px;
     height: 180px;
+  }
+  #sidestretch {
+    display: none;
   }
 }
 
